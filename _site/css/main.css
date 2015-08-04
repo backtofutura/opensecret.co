@@ -8,58 +8,59 @@ body {
 
 .container {
   margin: 0 auto;
-  padding-top: 20px;
-  width: 500px;
-  max-width: 100%;
-  text-align: center; }
+  padding-top: 2%;
+  width: 800px;
+  max-width: 100%; }
 
 .h1 {
   font-family: 'Montserrat', 'sans-serif';
   font-size: 16px;
-  color: #433743;
+  color: #000000;
   letter-spacing: .6px; }
 
-.h2 {
-  margin-top: -5px;
-  font-family: 'Montserrat', 'sans-serif';
-  font-weight: 700;
-  font-size: 32px;
-  line-height: -10px;
-  color: #433743;
-  letter-spacing: 1px; }
+.left_intro {
+  float: left;
+  padding-left: 20px;
+  width: 350px;
+  text-align: center; }
+
+.img {
+  margin-top: 20px;
+  max-width: 100%; }
 
 /* mailchimp css start */
-#mc_embed_signup form {
-  display: inline-block;
-  width: 400px;
+.right_signup form {
+  float: right;
+  width: 350px;
   max-width: 100%;
   position: relative;
   text-align: left;
   font-family: 'Montserrat', 'sans-serif'; }
 
-#mc_embed_signup h2 {
+#signup h2 {
   text-align: center;
+  font-size: 16px;
   margin: 15px 0; }
 
-#mc_embed_signup input {
-  border: 1px solid #999;
+#signup input {
+  border: 1px solid #CCC;
   -webkit-appearance: none; }
 
-#mc_embed_signup input[type=checkbox] {
+#signup input[type=checkbox] {
   -webkit-appearance: checkbox; }
 
-#mc_embed_signup input[type=radio] {
+#signup input[type=radio] {
   -webkit-appearance: radio; }
 
-#mc_embed_signup input:focus {
+#signup input:focus {
   border-color: #333; }
 
-#mc_embed_signup .button {
+#signup .button {
   clear: both;
-  background-color: #aaa;
-  border: 0 none;
+  background-color: #fff;
+  border-color: #ED2A7B;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ED2A7B;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
@@ -74,55 +75,58 @@ body {
   white-space: nowrap;
   width: auto; }
 
-#mc_embed_signup .button:hover {
-  background-color: #777; }
+#signup .button:hover {
+  background-color: #ED2A7B;
+  color: #fff; }
 
-#mc_embed_signup .small-meta {
+#signup .small-meta {
   font-size: 11px; }
 
-#mc_embed_signup .nowrap {
+#signup .nowrap {
   white-space: nowrap; }
 
-#mc_embed_signup .mc-field-group {
+#signup .mc-field-group {
   clear: left;
   position: relative;
   width: 96%;
   padding-bottom: 3%;
   min-height: 50px; }
 
-#mc_embed_signup .size1of2 {
+#signup .size1of2 {
   clear: none;
   float: left;
   display: inline-block;
   width: 46%;
   margin-right: 4%; }
 
-* html #mc_embed_signup .size1of2 {
+* html #signup .size1of2 {
   margin-right: 2%;
   /* Fix for IE6 double margins. */ }
 
-#mc_embed_signup .mc-field-group label {
+#signup .mc-field-group label {
   display: block;
-  margin-bottom: 3px; }
+  margin-bottom: 3px;
+  font-size: 13px; }
 
-#mc_embed_signup .mc-field-group input {
+#signup .mc-field-group input {
   display: block;
   width: 100%;
   padding: 8px 0;
-  text-indent: 2%; }
+  text-indent: 2%;
+  margin-bottom: 10px; }
 
-#mc_embed_signup .mc-field-group select {
+#signup .mc-field-group select {
   display: inline-block;
   width: 99%;
   padding: 5px 0;
   margin-bottom: 2px; }
 
-#mc_embed_signup .datefield,
-#mc_embed_signup .phonefield-us {
+#signup .datefield,
+#signup .phonefield-us {
   padding: 5px 0; }
 
-#mc_embed_signup .datefield input,
-#mc_embed_signup .phonefield-us input {
+#signup .datefield input,
+#signup .phonefield-us input {
   display: inline;
   width: 60px;
   margin: 0 2px;
@@ -130,54 +134,54 @@ body {
   text-align: center;
   padding: 5px 0 2px 0; }
 
-#mc_embed_signup .phonefield-us .phonearea input,
-#mc_embed_signup .phonefield-us .phonedetail1 input {
+#signup .phonefield-us .phonearea input,
+#signup .phonefield-us .phonedetail1 input {
   width: 40px; }
 
-#mc_embed_signup .datefield .monthfield input,
-#mc_embed_signup .datefield .dayfield input {
+#signup .datefield .monthfield input,
+#signup .datefield .dayfield input {
   width: 30px; }
 
-#mc_embed_signup .datefield label,
-#mc_embed_signup .phonefield-us label {
+#signup .datefield label,
+#signup .phonefield-us label {
   display: none; }
 
-#mc_embed_signup .indicates-required {
+#signup .indicates-required {
   text-align: right;
   font-size: 11px;
   margin-right: 4%; }
 
-#mc_embed_signup .asterisk {
-  color: #c60;
+#signup .asterisk {
+  color: #ED2A7B;
   font-size: 200%; }
 
-#mc_embed_signup .mc-field-group .asterisk {
+#signup .mc-field-group .asterisk {
   position: absolute;
   top: 25px;
   right: 10px; }
 
-#mc_embed_signup .clear {
+#signup .clear {
   clear: both; }
 
-#mc_embed_signup .mc-field-group.input-group ul {
+#signup .mc-field-group.input-group ul {
   margin: 0;
   padding: 5px 0;
   list-style: none; }
 
-#mc_embed_signup .mc-field-group.input-group ul li {
+#signup .mc-field-group.input-group ul li {
   display: block;
   padding: 3px 0;
   margin: 0; }
 
-#mc_embed_signup .mc-field-group.input-group label {
+#signup .mc-field-group.input-group label {
   display: inline; }
 
-#mc_embed_signup .mc-field-group.input-group input {
+#signup .mc-field-group.input-group input {
   display: inline;
   width: auto;
   border: none; }
 
-#mc_embed_signup div#mce-responses {
+#signup div#mce-responses {
   float: left;
   top: -1.4em;
   padding: 0em .5em 0em .5em;
@@ -186,7 +190,7 @@ body {
   margin: 0 5%;
   clear: both; }
 
-#mc_embed_signup div.response {
+#signup div.response {
   margin: 1em 0;
   padding: 1em .5em .5em 0;
   font-weight: bold;
@@ -195,14 +199,14 @@ body {
   z-index: 1;
   width: 80%; }
 
-#mc_embed_signup #mce-error-response {
+#signup #mce-error-response {
   display: none; }
 
-#mc_embed_signup #mce-success-response {
+#signup #mce-success-response {
   color: #529214;
   display: none; }
 
-#mc_embed_signup label.error {
+#signup label.error {
   display: block;
   float: none;
   width: auto;
@@ -216,10 +220,10 @@ body {
   display: block;
   margin: 1em 0 1em 5%; }
 
-#mc_embed_signup #num-subscribers {
+#signup #num-subscribers {
   font-size: 1.1em; }
 
-#mc_embed_signup #num-subscribers span {
+#signup #num-subscribers span {
   padding: .5em;
   border: 1px solid #ccc;
   margin-right: .5em;
@@ -233,11 +237,6 @@ a {
 
 a:hover {
   text-decoration: none; }
-
-a:hover.dotted {
-  border-bottom: solid 1px #AADEDD;
-  padding: .5px;
-  color: #C64C4C; }
 
 @media (max-width: 600px) {
   .container {
